@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- BOOSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../img/Logo.svg.webp" type="image/x-icon">
+    <title>Contacto - AFF</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="sweetalert2.min.css">
+    <meta name="description"
+        content="Compra Aqui tu Remera, pantalon o zapatillas y recibilos en menos de 24hs totalmente gratis ya que trabajamos con envios a domicilio a todo el pais. Aprovecha nuestros increibles beneficios y promos de hasta un 45% de descuento.">
+</head>
+
+<body class="colorF">
+    <header class="fondoH colorH">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/index.html"><img class="tamLogo" src="../img/nikeLogo.png" alt="Nike"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link ancla" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ancla" href="/paginas/zapatillas.html">Zapatillas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ancla" href="ropa.html">Ropa</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ancla" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container-fluid text-center">
+        <h1 class="subtitulo1 mt-4">Contacto</h1>
+        <div class="conFieldset">
+            <fieldset>
+                <legend><b>Completa Con tus datos para poder contactarte</b></legend>
+                <div class="fondoPri" data-aos="zoom-in">
+                    <form id="form" class="formularioContacto fondodecontacto" action="https://formspree.io/f/mdojrqaz" method="POST">
+                        <label for="name">Nombre</label><br>
+                        <input name='name' class="input-contact" id="name" type="text" placeholder="Nombre"><br>
+                        <label class="label-contact" for="numero">Whahtsapp</label><br>
+                        <input name="whatsapp" class="input-contact" id="numero" type="number" placeholder="Numero de whatsapp"><br>
+                        <label class="label-contact" for="mail">Correo electronico</label><br>
+                        <input name="email" class="input-contact" id="mail" type="email" placeholder="E-mail"><br>
+                        <label class="label-contact" for="area">Consulta o Reserva</label><br>
+                        <textarea name="message" class="input-contact" id="area" cols="30" rows="5"
+                            placeholder="Escribe tu consulta o Reserva aqui"></textarea><br>
+                        <input name="submit" class="btnContact botonC" type="submit">
+                    </form>
+                </div>
+            </fieldset>
+        </div>
+
+        <footer class="py-3 my-4">
+            <p class="text-center text-muted border-bottom border-top"><img src="/img/Logo.svg.webp" alt=""
+                    width="10%">&copy; 2022 Company,Inc</p>
+            <ul class="text-center pb-3 mb-3 container">
+                <a href="https://wa.me/+5493518174905?text=Hola%20Me%20interesa%20el%20auto%20que%20est%C3%A1s%20vendiendo"
+                    class="col-xl-2 col-md-2 col-sm-2" target="_blank"><img src="/img/whatsapp.webp" alt=""
+                        class="redes"></a>
+                <a href="https://www.instagram.com/tomas_ah.c/" class="col-xl-2 col-md-2 col-sm-2" target="_blank"><img
+                        src="/img/instagram.webp" alt="" class="redes"></a>
+                <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=DmwnWstpsZXTBBDjpvTPQfFRzHtSqfWpTTVThMVsXZkHMWbBFcpFRCFwMTqGzGbSVKQMDkKzLFxv"
+                    class="col-xl-2 col-md-2 col-sm-2" target="_blank"><img class="redes" src="/img/gmail.webp"
+                        alt=""></a>
+                <a href="https://www.facebook.com/tomas.ahumada.750/" class="col-xl-2 col-md-2 col-sm-2"
+                    target="_blank"><img src="/img/facebook.webp" alt="" class="redes"></a>
+                <a href="contacto.html" class="col-xl-2 col-md-2 col-sm-2" target="_blank"><img src="/img/contacto.webp"
+                        alt="" class="redes"></a>
+                <a href="../paginas/sobreNosotros.html" class="col-xl-2 col-md-2 col-sm-2" target="_blank"><img
+                        src="/img/informacion.webp" alt="" class="redes"></a>
+            </ul>
+        </footer>
+    </div>
+    <a href="https://wa.me/+5493518174905?text=Hola%20Me%20interesa%20el%20auto%20que%20est%C3%A1s%20vendiendo"
+        target="_blank"><img class="imgWhats" src="../img/WhatsApp.svg.webp" title="No lo dudes, Contactanos!"></a>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="../js/contacto.js"></script>
+    <script src="sweetalert2.min.js"></script>
+</body>
+
+</html>
